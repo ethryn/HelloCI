@@ -16,6 +16,13 @@ namespace HelloCI.Web.UnitTests
             // TODO: Add your test code here
             Assert.Pass("Your first passing test");
         }
+        
+         [Test]
+        public void TestOtherPassMethod()
+        {
+            // TODO: Add your test code here
+            Assert.Pass("Your 2nd passing test");
+        }
 
         [Test]
         public void TestWarningMethod()
