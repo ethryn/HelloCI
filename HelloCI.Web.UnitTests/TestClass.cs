@@ -30,5 +30,12 @@ namespace HelloCI.Web.UnitTests
             // TODO: Add your test code here
             Assert.Warn("Your first passing test");
         }
+
+        [Test]
+        public void TestFailMethod()
+        {
+            // TODO: Add your test code here
+            Assert.Fail("Your first passing test");
+        }
     }
 }
